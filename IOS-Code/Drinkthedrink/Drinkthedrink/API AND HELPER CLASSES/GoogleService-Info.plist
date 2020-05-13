@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>426362061882-7sq00mo6693b87o22tkbo8jqu6u2h2ok.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.426362061882-7sq00mo6693b87o22tkbo8jqu6u2h2ok</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>426362061882-qinqdjtqqjegg6copa7l2adkb6elm6lk.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAEhGGS2BWQvG10iC6Q5prcC2gzIR1UmR0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>426362061882</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.drinkthe.drink</string>
+	<key>PROJECT_ID</key>
+	<string>drinkthedrink-108a4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>drinkthedrink-108a4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:426362061882:ios:95dab780ec7d7d50c9e103</string>
+	<key>DATABASE_URL</key>
+	<string>https://drinkthedrink-108a4.firebaseio.com</string>
+</dict>
+</plist>

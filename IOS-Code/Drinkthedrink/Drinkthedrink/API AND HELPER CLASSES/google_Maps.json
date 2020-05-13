@@ -1,0 +1,128 @@
+[
+  {
+      "elementType" : "geometry",
+      "stylers": [
+      {
+          "color": "#007879"
+          
+      }
+      ]
+  },
+{
+      "elementType": "labels.text.stroke",
+      "stylers": [{"visibility": "off"}
+      ]
+      
+},
+  {
+      "featureType": "poi.park",
+      "elementType": "geometry",
+      "stylers": [
+      {
+          "color": "#007879"
+      }
+      ]
+  },
+  { "featureType": "poi.park",
+      "elementType": "labels.text.fill",
+      "stylers": [{"visibility": "off"}] },
+  {
+      "featureType": "road",
+      "elementType": "geometry",
+      "stylers":[
+      {
+          "color": "#868B94"
+      }
+      ]
+  },
+  {
+      "featureType": "road.local",
+      "elementType": "geometry",
+      "stylers": [
+      {
+          "color": "#868B94"
+      }
+      ]
+  },
+  {
+      "featureType": "road.highway",
+      "elementType": "geometry",
+      "stylers": [
+      {
+          "color": "#00A7B1"
+          
+      }
+      ]
+  },
+  {
+      "featureType": "road.highway",
+      "elementType": "geometry.stroke",
+      "stylers": [
+      {
+          "color": "#00A7B1"
+          
+      }
+      ] },
+  {
+      "featureType": "transit",
+      "elementType": "geometry",
+      "stylers": [
+      {
+          "visibility": "off"
+      }
+      ]
+  },
+  {
+      "featureType": "water",
+      "elementType": "geometry",
+      "stylers": [
+      {
+          "color": "#006994"
+      }
+      ]
+  }, {
+      "featureType": "transit",
+      "elementType": "labels",
+      "stylers": [
+      {
+          "visibility": "off"
+      }
+      ]
+  },
+  {
+      "featureType": "road",
+      "elementType": "labels",
+      "stylers": [
+      {
+          "visibility": "off"
+      }
+      ]
+  },
+  {
+      "featureType": "poi",
+      "elementType": "labels",
+      "stylers": [
+      {
+          "visibility": "off"
+      }
+      ]
+      
+  },
+  {
+      "featureType": "road.highway"
+      ,"elementType": "labels",
+      "stylers": [
+      {
+          "visibility": "on"
+      }
+      ]
+  },
+{
+    "featureType": "administrative",
+    "elementType": "labels.text.fill",
+    "stylers": [
+    {
+        "color": "#f9f9f9"
+    }
+    ]
+}]

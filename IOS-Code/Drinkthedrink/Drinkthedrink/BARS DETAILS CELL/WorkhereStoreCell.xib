@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WorkhereStoreCell" id="gTV-IL-0wX" customClass="WorkhereStoreCell" customModule="Drinkthedrink" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="190" height="181"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="190" height="181"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Hd-sz-ivb">
+                        <rect key="frame" x="55" y="10" width="80" height="79"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="79" id="b2G-ga-2Pg"/>
+                            <constraint firstAttribute="width" constant="80" id="nye-p5-FuD"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5AX-Od-K0W">
+                        <rect key="frame" x="0.0" y="94" width="190" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="TxO-vr-GA7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" red="0.090196078431372548" green="0.41960784313725491" blue="0.58431372549019611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzf-Ku-yGa">
+                        <rect key="frame" x="0.0" y="116" width="190" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="RXj-yT-uCk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" red="0.090196078430000007" green="0.41960784309999999" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cQ-93-XtN" userLabel="LOGIN BUTTON">
+                        <rect key="frame" x="35" y="141" width="120" height="35"/>
+                        <color key="backgroundColor" red="0.1764705882" green="0.37254901959999998" blue="0.51372549020000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="HZF-n4-AdP"/>
+                            <constraint firstAttribute="height" constant="35" id="p1N-et-W39"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                        <state key="normal" title="FOLLOW">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="gzf-Ku-yGa" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1Ny-Y1-bIL"/>
+                <constraint firstItem="5AX-Od-K0W" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8o0-U4-q6D"/>
+                <constraint firstItem="7cQ-93-XtN" firstAttribute="top" secondItem="gzf-Ku-yGa" secondAttribute="bottom" constant="5" id="9NQ-Gi-Jcs"/>
+                <constraint firstItem="7cQ-93-XtN" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="B3m-XF-0w9"/>
+                <constraint firstAttribute="trailing" secondItem="5AX-Od-K0W" secondAttribute="trailing" id="Dx0-11-7eE"/>
+                <constraint firstItem="gzf-Ku-yGa" firstAttribute="top" secondItem="5AX-Od-K0W" secondAttribute="bottom" constant="2" id="GOn-4H-s1c"/>
+                <constraint firstAttribute="trailing" secondItem="gzf-Ku-yGa" secondAttribute="trailing" id="TE1-3e-9Ud"/>
+                <constraint firstItem="5AX-Od-K0W" firstAttribute="top" secondItem="1Hd-sz-ivb" secondAttribute="bottom" constant="5" id="eKy-ph-RA2"/>
+                <constraint firstItem="1Hd-sz-ivb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="slz-ST-Yej"/>
+                <constraint firstItem="1Hd-sz-ivb" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="uIX-QR-946"/>
+                <constraint firstAttribute="bottom" secondItem="7cQ-93-XtN" secondAttribute="bottom" constant="5" id="vSQ-CZ-DcL"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="190" height="181"/>
+            <connections>
+                <outlet property="btnFollowTeamOnStore" destination="7cQ-93-XtN" id="sJh-sN-qVV"/>
+                <outlet property="imgTeam" destination="1Hd-sz-ivb" id="ED6-4t-M4J"/>
+                <outlet property="lblSpeicalityStoreteam" destination="gzf-Ku-yGa" id="OLb-8D-v5b"/>
+                <outlet property="lblTeamUserName" destination="5AX-Od-K0W" id="PvG-qg-K6v"/>
+            </connections>
+            <point key="canvasLocation" x="69.565217391304358" y="50.558035714285715"/>
+        </collectionViewCell>
+    </objects>
+</document>
